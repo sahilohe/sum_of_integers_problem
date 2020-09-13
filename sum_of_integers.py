@@ -17,8 +17,8 @@ number = int(input('Enter the number: '))
 print(add_it_up(number))
 
 
-def same_function(number):
+def same_function_as_formula(number):
     s = number * (number + 1)/2
     return s
 
-print(same_function(number))
+print(same_function_as_formula(number))
