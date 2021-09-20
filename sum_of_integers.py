@@ -18,7 +18,7 @@ print(add_it_up(number))
 
 
 def same_function_as_formula(number):
-    s = number * (number + 1)/2
-    return s
+    sum = number * (number + 1)/2
+    return sum
 
 print(same_function_as_formula(number))
